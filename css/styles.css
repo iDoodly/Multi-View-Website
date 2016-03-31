@@ -25,11 +25,15 @@
 	color: red;
 	text-decoration:underline;
 }
+<<<<<<< Updated upstream
 =======
+=======
+
+>>>>>>> Stashed changes
 .nheader {
-
+	text-transform: uppercase;
+	text-align: center;
 }
-
 
 .employee {
 	font-size: 30px;
@@ -40,8 +44,18 @@
 	color: #985E6D;
 }
 
+.nlist {
+	list-style: none;
+	text-align: center;
+}
+
 li a {
 	color: #192231;
 	text-decoration: none;
 }
->>>>>>> origin/master
+
+.description {
+	text-align: center;
+	margin-top: 50px;
+}
+
