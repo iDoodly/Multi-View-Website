@@ -109,7 +109,7 @@ li a {
 	display: none;
 	width: 120px;
 	position: absolute;
-	background-color: rgba(0,0,0,0.75);
+	background-color: rgba(256,256,256,0.75);
 	/*margin-right: auto;
 	margin-left: auto;*/
 	color: #0467A8 !important;
