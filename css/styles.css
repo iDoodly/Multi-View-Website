@@ -122,6 +122,6 @@ li a {
 .scontainer{
 	margin-top: 75px;
 }
-.media{
-	margin:auto;	
+.media-body{
+	position: relative;	
 }
