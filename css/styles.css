@@ -1,0 +1,18 @@
+.nheader {
+
+}
+
+
+.employee {
+	font-size: 30px;
+	text-transform: none;
+}
+
+.employee:hover {
+	color: #985E6D;
+}
+
+li a {
+	color: #192231;
+	text-decoration: none;
+}
