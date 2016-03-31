@@ -1,3 +1,14 @@
+.index_body {
+	margin: 0px;
+}
+
+.ncontainer {
+	margin-top: 75px;
+	/*max-width: 960px;*/
+	background-color: #F2F2F2;
+	height: 10000px;
+}
+
 .alanna{
 	font-style: calibri;
 	font-size: 32px;
@@ -25,11 +36,6 @@
 	color: red;
 	text-decoration:underline;
 }
-<<<<<<< Updated upstream
-=======
-=======
-
->>>>>>> Stashed changes
 .nheader {
 	text-transform: uppercase;
 	text-align: center;
@@ -50,12 +56,66 @@
 }
 
 li a {
-	color: #192231;
+	color: #0467A8;
 	text-decoration: none;
 }
 
 .description {
 	text-align: center;
 	margin-top: 50px;
+}
+
+.navbar {
+	position: fixed;
+	width: 100%;
+	height: 75px;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+	background-color: #0467A8;
+}
+
+.logo {
+	height: 75px;
+	float: left;
+}
+
+.navbar_content {
+	float: right;
+	margin-right: 50px;
+}
+
+.navbar_content ul {
+	list-style: none;
+}
+
+.navbar_content ul li {
+	display: inline-block;
+	width: 120px;
+	height: 75px;
+	padding: 15px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown_content {
+	display: none;
+	width: 120px;
+	position: absolute;
+	background-color: rgba(0,0,0,0.75);
+	/*margin-right: auto;
+	margin-left: auto;*/
+	color: #0467A8 !important;
+}
+
+.dropdown:hover .dropdown_content {
+	display: block;
 }
 
